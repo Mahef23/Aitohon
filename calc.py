@@ -5,9 +5,11 @@ def mark(res):
         print("Pass")
     else: 
         print("Excellent")
-    return 
+    return res
 
 def average(point):
     isa = point *5
     return isa
 
+
+print(average(mark(60)))

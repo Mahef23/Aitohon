@@ -10,6 +10,8 @@ if moyenne< 60:
     print(f"{nom}, you Failed . MARK= {moyenne}")
 elif moyenne>=60 and moyenne<70:
     print(f"{nom}, you Passed . MARK= {moyenne}")
+elif moyenne>=70 and moyenne<80:
+    print(f"{nom}, Enough Good. MARK= {moyenne}")
 else:
     print(f"{nom},Good . MARK= {moyenne}")
 

@@ -12,6 +12,7 @@ elif moyenne>=60 and moyenne<70:
     print(f"{nom}, you Passed . MARK= {moyenne}")
 elif moyenne>=70 and moyenne<80:
     print(f"{nom}, Enough Good. MARK= {moyenne}")
+elif moyenne>=80 and moyenne<90:
+    print(f"{nom}, Good. MARK= {moyenne} ")  
 else:
-    print(f"{nom},Good . MARK= {moyenne}")
-
+    print(f"{nom},Very  Good . MARK= {moyenne}")

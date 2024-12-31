@@ -9,6 +9,6 @@ while not password == "TAY":
 print("***BIENVENUE***")"""
 
 reponse = input("Entrer votre reponse : ")
-while not reponse == "78":
+while reponse == "" and not reponse =="78":
     reponse = input("Faux. Entrer votre reponse : ")
 print("Vrai")

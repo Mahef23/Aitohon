@@ -9,12 +9,13 @@ def escalier(taille,marche):
         taille=taille-10
     t.forward(taille)
 
-def carre(taille):
-    for i in range (0,4):
+def carre(taillei,nombre):
+    for i in range (1,nombre):
+        taille=(taillei*i)
         t.forward(taille)
         t.left(90)
 t= turtle.Turtle()
 #escalier(50,5)
 for i in range (0,5):
-    carre(20*((-2)**i))
+    carre(20,10)
 turtle.done()

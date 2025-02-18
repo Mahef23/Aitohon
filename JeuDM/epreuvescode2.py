@@ -12,9 +12,11 @@ temps=int(input("Entrer le temps: "))
 minutes=0
 secondes=0
 transform(temps)
+if(temps<=60):
+    secondes=temps
 for i in range (minutes,-1,-1):
     for j in range(secondes,-1,-1):
         time.sleep(0.2)
         print(f"{i} : {j}" , flush=True)
 
-    secondes=60
+    secondes=59
